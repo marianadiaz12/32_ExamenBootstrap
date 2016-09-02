@@ -1,0 +1,73 @@
+.text-white{
+	color: white;
+}
+.text-red{
+	color: #AF0922;
+}
+.bordeh{
+	border: 1px solid #D5D8DC;
+	padding: 2%;
+}
+.back-img{
+	background-repeat: no-repeat;
+	padding: 2% 0% 90%;
+	background-size: 100%;
+}
+.img-guan{
+	background-image: url("../images/a1.jpg");
+}
+.img-gorra{
+	background-image: url("../images/b1.jpg");
+}
+.img-maleta{
+	background-image: url("../images/c1.jpg");
+}
+.img-bolso{
+	background-image: url("../images/d1.jpg");
+}
+.back-red{
+	background-color: #AF0922;
+	width: 30%;
+}
+.client{
+	background-image: url("../images/client-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5%;
+}
+#sep {
+	padding: 4% 0%;
+	position: relative;
+}
+#sep .spa{
+	position: absolute;
+	left:45%;
+	top:50%;
+	transform: translateY(-50%);
+}
+/*Estilo para las estrellas*/
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+/*Fin de Estrelallas*/
+.btn-black{
+	background-color: black;
+}
