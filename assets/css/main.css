@@ -45,6 +45,9 @@
 	top:50%;
 	transform: translateY(-50%);
 }
+.gray{
+	background-color: gray;
+}
 /*Estilo para las estrellas*/
 input[type="radio"] {
   display: none;
